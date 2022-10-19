@@ -12,6 +12,11 @@
     padding-bottom: 6rem;
 }
 
+.px-10 {
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
 .my-6 {
     margin-top: 6rem;
     margin-bottom: 6rem;
@@ -208,6 +213,16 @@
         z-index: 1;
     }
 }
+
+/*** Team ***/ 
+
+.subteams {
+    min-height: 100vh;
+    background: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), url(../img/subteam-bg.jpg) center center no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 
 
 /*** Courses ***/
