@@ -88,6 +88,10 @@
     padding-left: 5%;
 }
 
+.left_pad2 {
+    padding-left: 2%;
+}
+
 
 /*** Navbar ***/
 
@@ -214,7 +218,8 @@
     }
 }
 
-/*** Team ***/ 
+
+/*** Team ***/
 
 .subteams {
     min-height: 100vh;
@@ -222,7 +227,6 @@
     background-attachment: fixed;
     background-size: cover;
 }
-
 
 
 /*** Courses ***/
