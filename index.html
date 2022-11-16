@@ -9,6 +9,10 @@
     <meta content="" name="keywords">
     <meta content="" name="description">
 
+    <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="vendor/countdowntime/flipclock.css">
+    <link rel="stylesheet" type="text/css" href="css/clock.css">
+
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
     <!-- Google Web Fonts -->
@@ -106,7 +110,6 @@
     </nav>
     <!-- Navbar End -->
 
-
     <!-- Carousel Start -->
     <div class="container-fluid p-0 wow fadeIn" data-wow-delay="0.1s">
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
@@ -153,7 +156,12 @@
     <!-- Carousel End -->
 
 
+
+
     <!-- Facts Start -->
+    <div class="bg-primary py-5">
+        <div class="cd100"></div>
+    </div>
     <div class="container-fluid facts py-5 pt-lg-0">
         <div class="container py-5 pt-lg-0">
             <div class="row gx-0">
@@ -476,6 +484,33 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+    <!-- Scripts for CountDown -->
+    <!--===============================================================================================-->
+    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+    <script src="vendor/countdowntime/flipclock.min.js"></script>
+    <script src="vendor/countdowntime/moment.min.js"></script>
+    <script src="vendor/countdowntime/moment-timezone.min.js"></script>
+    <script src="vendor/countdowntime/moment-timezone-with-data.min.js"></script>
+    <script src="vendor/countdowntime/countdowntime.js"></script>
+    <script>
+        $('.cd100').countdown100({
+            /*Set Endtime here*/
+            /*Endtime must be > current time*/
+            endtimeYear: 2023,
+            endtimeMonth: 4,
+            endtimeDate: 12,
+            endtimeHours: 12,
+            endtimeMinutes: 0,
+            endtimeSeconds: 0,
+            timeZone: ""
+                // ex:  timeZone: "America/New_York"
+                //go to " http://momentjs.com/timezone/ " to get timezone
+        });
+    </script>
+    <!--===============================================================================================-->
+
+    <!-- End Scripts-->
 </body>
 
 </html>
