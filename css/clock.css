@@ -68,8 +68,8 @@ Primary use:
     position: relative;
     float: unset;
     margin: 3px;
-    width: 90px;
-    height: 120px;
+    width: 7vw;
+    height: 9vw;
     font-size: 36px;
     font-weight: unset;
     line-height: unset;
@@ -88,7 +88,7 @@ Primary use:
 .flip-clock-wrapper ul li a div div.inn {
     font-family: Quantico-Regular;
     color: #fff;
-    font-size: 120px;
+    font-size: 8vw;
     font-weight: unset;
     text-align: unset;
     display: -webkit-box;
@@ -135,7 +135,7 @@ Primary use:
     content: ":";
     font-family: Quantico-Regular;
     color: #fff;
-    font-size: 120px;
+    font-size: 8vw;
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
