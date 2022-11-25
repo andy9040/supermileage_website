@@ -159,7 +159,7 @@ Primary use:
     letter-spacing: 3px;
     display: block;
     text-align: center;
-    width: 193px;
+    width: 15vw;
     position: absolute;
     left: 100%;
     top: 100%;
@@ -182,29 +182,29 @@ Primary use:
     content: "sec";
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 100%) {
     .flip-clock-wrapper {
-        max-width: 470px;
-        margin-right: 10px;
+        max-width: 50%;
+        margin-right: 5%;
     }
     .flip-clock-divider.days {
-        width: 10px;
+        width: 50000%;
     }
     .flip-clock-divider.minutes {
-        width: 10px;
+        width: 50%;
     }
     .flip-clock-divider.minutes::before {
         display: none;
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 100%) {
     .flip-clock-wrapper {
-        max-width: 210px;
-        margin-right: 10px;
+        max-width: 50%;
+        margin-right: 5%;
     }
     .flip-clock-divider {
-        width: 10px;
+        width: 5%;
     }
     .flip-clock-divider::before {
         display: none;
