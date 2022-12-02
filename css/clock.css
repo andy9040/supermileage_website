@@ -124,7 +124,7 @@ Primary use:
     float: unset;
     position: relative;
     width: 68px;
-    height: 120px;
+    height: 10vw;
 }
 
 .flip-clock-divider span {

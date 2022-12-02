@@ -59,6 +59,34 @@
                 top: 0px;
             }
         }
+        
+        @media screen and (max-width: 850px) {
+            div.disappear_when_too_small {
+                display: none;
+            }
+        }
+        
+        .special {
+            aspect-ratio: 4/3;
+            background-color: #f5f5f5;
+            border-radius: 30px;
+            padding: 2%;
+            margin: 10px;
+            margin-bottom: 2%;
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
+        }
+        
+        .special img {
+            aspect-ratio: 3/2;
+            object-fit: contain;
+            mix-blend-mode: multiply;
+            margin: auto;
+            width: 100%;
+            height: 100%;
+            vertical-align: middle;
+        }
     </style>
 </head>
 
@@ -157,7 +185,7 @@
     <!-- Countdown Start -->
 
 
-    <div class="py-5" style="background: linear-gradient(0.25turn, #3f87a6, pink, #F3BD00);">
+    <div class="py-5 disappear_when_too_small" style="background: linear-gradient(0.25turn, #3f87a6, pink, #F3BD00);">
         <h3 style="text-align: center; color:black; padding-bottom:1rem"><b>Countdown Until Competition</b></h3>
         <div class="cd100"></div>
     </div>
@@ -387,42 +415,39 @@
                 <h1 class="display-6 mb-4 text-primary">Gold and Platinum Sponsors</h1>
             </div>
 
-            <div class="row g-0 team-items">
-                <div class="col-lg-2 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="row g-0 team-items justify-content-md-center">
+                <div class="col-lg-3 col-md-6 wow fadeInUp special" data-wow-delay="0.1s">
                     <a href="https://www.boeing.com/">
-                        <img class="img-fluid" src="img/sponsors/boeing.png" alt="">
+                        <img class="img-fluid logo" src="img/sponsors/boeing.png" alt="">
                     </a>
                 </div>
-
-                <div class="col-lg-2 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-lg-3 col-md-6 wow fadeInUp special" data-wow-delay="0.2s">
                     <a href="https://www.ford.com/">
-                        <img class="img-fluid" style="padding-top:25%;padding-left:10%;padding-right:10%" src="img/sponsors/ford.jpg" alt="">
+                        <img class="img-fluid logo" src="img/sponsors/ford.jpg" alt="">
                     </a>
                 </div>
-
-
-                <div class="col-lg-2 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="col-lg-3 col-md-6 wow fadeInUp special" data-wow-delay="0.3s">
                     <a href="https://www.northropgrumman.com/">
-                        <img class="img-fluid" src="img/sponsors/northrop.png" style="padding-left:10%;padding-right:10%" alt="">
+                        <img class="img-fluid logo" src="img/sponsors/northrop.png" alt="">
                     </a>
                 </div>
-
-
-                <div class="col-lg-2 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+            </div>
+            <div class="row g-0 team-items justify-content-md-center">
+                <div class="col-lg-3 col-md-6 wow fadeInUp special" data-wow-delay="0.4s">
                     <a href="https://www.siemens.com/global/en.html">
-                        <img class="img-fluid" src="img/sponsors/siemens.png" alt="">
+                        <img class="img-fluid logo" src="img/sponsors/siemens.png" alt="">
                     </a>
                 </div>
 
-                <div class="col-lg-2 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="col-lg-3 col-md-6 wow fadeInUp special" data-wow-delay="0.5s">
                     <a href="https://me.engin.umich.edu/">
-                        <img class="img-fluid" style="padding-top:30%" src="img/sponsors/mechE.png" alt="">
+                        <img class="img-fluid logo" src="img/sponsors/mechE.png" alt="">
                     </a>
                 </div>
 
-                <div class="col-lg-2 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="col-lg-3 col-md-6 wow fadeInUp special" data-wow-delay="0.6s">
                     <a href="https://www.ariensco.com/">
-                        <img class="img-fluid" style="padding-top:10%; padding-left:20%;padding-right:20%" src="img/sponsors/ariens.png" alt="">
+                        <img class="img-fluid logo" src="img/sponsors/ariens.png" alt="">
                     </a>
                 </div>
             </div>
