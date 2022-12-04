@@ -36,7 +36,7 @@
         @keyframes car {
             0% {
                 /* background-color: red; */
-                left: -10.5%;
+                left: 10%;
                 top: 0px;
                 -webkit-transform: scaleX(-1);
                 transform: scaleX(-1);
@@ -55,13 +55,16 @@
             }
             100% {
                 /* background-color: red; */
-                left: 2%;
+                left: 10%;
                 top: 0px;
             }
         }
         
-        @media screen and (max-width: 850px) {
+        @media screen and (max-width: 1000px) {
             div.disappear_when_too_small {
+                display: none;
+            }
+            img.disappear_when_too_small {
                 display: none;
             }
         }
@@ -99,11 +102,11 @@
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-dark navbar-light sticky-top p-0">
-        <!-- <a href="index.html" class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
-            <h2 class="m-0"><i class="fa fa-car text-primary me-2"></i>Drivin</h2>
-        </a> -->
-        <img src="img/logo.png" class="left_pad" style="width:20%;">
-        <img src="img/animation/car.png" style="animation-name:car; width:12%; animation-duration: 10s; position: relative; animation-delay: 2s; animation-fill-mode: both;">
+        <a href="index.html" style="width:13%; padding-left:2%">
+            <img src="img/logo.png">
+        </a>
+        <img src="img/animation/car.png" class="disappear_when_too_small" style="animation-name:car; width:12%; animation-duration: 10s; position: relative; animation-delay: 2s; animation-fill-mode: both;">
+
 
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
