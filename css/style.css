@@ -7,6 +7,20 @@
     --dark: #0C2B4B;
 }
 
+.glowing-button {
+    animation: glow 0.5s infinite alternate; /* Using the "glow" animation */
+  }
+  
+  @keyframes glow {
+    from {
+      box-shadow: 0 0 0px rgba(52, 152, 219, 1);
+    }
+    to {
+      box-shadow: 0 0 35px rgba(52, 152, 219, 1);
+    }
+  }
+  
+
 .py-6 {
     padding-top: 6rem;
     padding-bottom: 6rem;
