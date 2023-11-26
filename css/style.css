@@ -428,9 +428,12 @@
 }
 
 .sponsor-box img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
+    width: 80%; /* Fixed width for all logos */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 120px; /* Maximum height for all logos */
+    object-fit: contain; /* Ensures the image is scaled correctly */
+    margin: 0 auto 10px; /* Center the image and add space below */
+    display: block; /* Ensures the image takes the full width */
 }
 
 .sponsor-box p {
