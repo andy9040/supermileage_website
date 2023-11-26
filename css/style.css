@@ -416,6 +416,7 @@
     text-align: center; /* Centering content */
     border-radius: 5px; /* Rounded corners */
     box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Optional shadow for depth */
+    min-height: 250px; /* Set a minimum height */
 }
 
 .sponsor-box img {
@@ -428,3 +429,4 @@
     font-size: 14px; /* Adjust as needed */
     color: #333; /* Adjust as needed */
 }
+
