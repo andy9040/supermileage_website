@@ -417,6 +417,7 @@
     border-radius: 5px; /* Rounded corners */
     box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Optional shadow for depth */
     min-height: 250px; /* Set a minimum height */
+    margin-bottom: 30px;
 }
 
 .sponsor-box img {
