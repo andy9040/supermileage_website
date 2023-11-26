@@ -411,7 +411,7 @@
 
 .sponsor-box {
     background-color: #f0f0f0; /* Example background color */
-    padding: 15px; /* Space inside the box */
+    padding: 30px 15px; /* Increased top and bottom padding */
     margin: 10px 0; /* Space outside the box */
     text-align: center; /* Centering content */
     border-radius: 5px; /* Rounded corners */
@@ -428,3 +428,4 @@
     font-size: 14px; /* Adjust as needed */
     color: #333; /* Adjust as needed */
 }
+
