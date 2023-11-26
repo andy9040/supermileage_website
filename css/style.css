@@ -408,3 +408,23 @@
 .copyright a:hover {
     color: var(--light);
 }
+
+.sponsor-box {
+    background-color: #f0f0f0; /* Example background color */
+    padding: 15px; /* Space inside the box */
+    margin: 10px 0; /* Space outside the box */
+    text-align: center; /* Centering content */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Optional shadow for depth */
+}
+
+.sponsor-box img {
+    max-width: 100%; /* Ensure the image fits in the box */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Space between image and text */
+}
+
+.sponsor-box p {
+    font-size: 14px; /* Adjust as needed */
+    color: #333; /* Adjust as needed */
+}
