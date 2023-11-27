@@ -441,4 +441,17 @@
     color: #333;
 }
 
+.logo-container {
+    height: 120px; /* Fixed height for all logo containers */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-container img {
+    max-width: 100%; /* Maximum width */
+    max-height: 100%; /* Maximum height */
+    object-fit: contain; /* Ensures the image is scaled correctly */
+}
+
 
